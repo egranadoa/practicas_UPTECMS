@@ -201,7 +201,7 @@ def w4():
         o_l_w.config(text="...Esperando Entrada...")
     
     w_seed = Toplevel()
-    w_seed.title("Encuentra-Palabras")
+    w_seed.title("Generador de Semillas")
 
     mf_w = Frame(w_seed)
     mf_w.pack()
