@@ -18,3 +18,5 @@ El proceso realizado para ordenar una pila es el siguiente:
 3) Dentro del ciclo principal, hay un segundo ciclo interno, donde si la pila que tendrá elementos ordenados está vacía se apila el número guardado como auxiliar a esa pila. Luego, si la pila no está vacía y la variable auxiliar es menor al último elemento de la Pila ordenada, esté ultimo elemento de la pila ordenada se apila nuevamente a la pila de entrada y luego se desapila de la pila ordenada. Si esta condición del ciclo secundario no se cumple, se apila la variabl auxiliar en la Pila ordenada. Esto se repite hasta que el ciclo principal culmine.
 
 El resultado es una Pila ordenada de menor a mayor.
+
+Actualización 16/07/2023: Se modifica el archivo en la sección de los ciclos para ordenar la pila, convirtiendo esa parte en la función my_stack_function
