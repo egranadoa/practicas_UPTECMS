@@ -28,16 +28,19 @@ while cantidad > 0:
     cantidad -= 1
 print("Arreglo desordenado:", array)
 
-for i in array:
-    pila1.push(i)
+def my_stack_function(arr, s1, s2)
+    for i in arr:
+        s1.push(i)
+    
+    while s1.isEmpty() == False:
+        aux = s1.top()
+        s1.pop()
+        while s2.isEmpty() == False and aux < s2.top():
+            s1.push(s2.top())
+            s2.pop()
+        else:
+            s2.push(aux)
 
-while pila1.isEmpty() == False:
-    aux = pila1.top()
-    pila1.pop()
-    while pila2.isEmpty() == False and aux < pila2.top():
-        pila1.push(pila2.top())
-        pila2.pop()
-    else:
-        pila2.push(aux)
-
-print("Pila ordenada:", pila2.items)
+    return s2.items
+    
+print("Pila ordenada:", my_stack_function(array, pila1, pila2))
