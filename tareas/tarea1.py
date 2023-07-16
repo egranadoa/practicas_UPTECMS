@@ -28,7 +28,7 @@ while cantidad > 0:
     cantidad -= 1
 print("Arreglo desordenado:", array)
 
-def my_stack_function(arr, s1, s2)
+def my_stack_function(arr, s1, s2):
     for i in arr:
         s1.push(i)
     
