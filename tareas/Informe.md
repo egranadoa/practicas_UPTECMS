@@ -1,6 +1,6 @@
 Informe de Tarea
 
-Autor: Efrain Granado, CI 27467022
+Autor: Efrain Granado
 
 El presente código está compuesto por los siguientes elementos:
 
